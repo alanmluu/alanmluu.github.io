@@ -1,0 +1,141 @@
+\documentclass{res}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+\usepackage[symbol]{footmisc}
+\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+
+\newsectionwidth{10pt}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\newcommand{\tab}[1]{\hspace{.2\textwidth}\rlap{#1}}
+\newcommand{\rfill}{\hspace*{\fill}}
+\newcommand{\studentinfo}[1]{\textit{\textcolor{gray}{(#1)}}}
+\newenvironment{denselist}{
+    \begin{list}{\small{$\bullet$}}%
+    {\setlength{\itemsep}{0ex} \setlength{\topsep}{0ex}
+    \setlength{\parsep}{0pt} \setlength{\itemindent}{0pt}
+    \setlength{\leftmargin}{1.5em}
+    \setlength{\partopsep}{0pt}}}%
+    {\end{list}}
+
+\newcommand{\squishlist}{
+   \begin{list}{$\bullet$}
+    { \setlength{\itemsep}{0pt}
+      \setlength{\parsep}{2pt}
+      \setlength{\topsep}{0pt}
+      \setlength{\partopsep}{0pt}
+      \leftmargin=25pt
+\rightmargin=0pt
+\labelsep=5pt
+\labelwidth=10pt
+\itemindent=0pt
+\listparindent=0pt
+\itemsep=\parsep
+    }
+}
+
+%\documentcliass[11pt]{article} %Sets the default text size to 11pt and class to article.
+%------------------------
+\setlength{\textheight}{9.5in} % increase text height to fit on 1-page
+\linespread{1.15} %This controls line spacing throughout the whole document
+\begin{document}
+\raggedright
+\centerline{\LARGE \textbf{Alan M Luu}}
+\vspace{-10pt}
+\noindent %Prevents the following text from being indented
+\centerline{ \href{mailto:amluu94@gmail.com}{amluu94@gmail.com} $\bullet$
+\href{http://alanmluu.github.io}{alanmluu.github.io}$\bullet$
+ GitHub: \href{https://github.com/alanmluu}{alanmluu}}
+\vspace{1pt}
+ \vspace{5pt}
+\begin{resume}
+\vspace{-30pt}
+\section{EDUCATION}
+\vspace{5pt}Ph.D. Physics, University of Illinois, Urbana-Champaign\rfill Aug 2016 - Present
+\begin{itemize}
+\item Specialization: %TODO
+\item Advisor: Jun S. Song
+\end{itemize}
+\vspace{5pt}B.A. Physics, University of California, Berkeley \rfill Aug. 2012 - May 2016
+\vspace{-2pt}
+\section{RESEARCH EXPERIENCE}
+\vspace{2pt}
+\href{http://song.igb.illinois.edu/}{UIUC Computational Biology Group (Advisor: Jun Song)}  \hfill Aug 2016 - Present
+\begin{itemize}%TODO: add description of the impact of these work
+\item {\normalfont Analyzed MiSeq data using Bowtie2 and Tophat2 to determine feasibility of using CRISPR-mediated base editing to induce alternate splicing. }
+\item {\normalfont Created web application to determine which exons of a gene can be modified to be excluded from the final transcript using CRISPR-mediated base editing.}
+\item {\normalfont Implemented various machine learning algorithms to discover new lincRNA.}
+\item {\normalfont Investigated using graph spectral sparsification to identify important edges in a network.}
+\end{itemize}
+\href{https://www.kuehnlab.org/}{UIUC Quantitative Ecology and Evolution Lab (Advisor: Seppe Kuehn)} \hfill May 2017 - Jul. 2017
+\begin{itemize}
+\item {\normalfont Carried out Statistical and network analysis on gene knockout data to investigate the correlation between phenotypic robustness and evolvability.}
+\end{itemize}
+\href{http://bionano.physics.illinois.edu/}{UIUC Computational Bio-Nano Group (Advisor: Aleksei Aksimentiev)} \hfill Sept - Dec 2016\\
+%{\sl University of Illinois at Urbana-Champaign} \\
+%{\normalfont Position: CPLC Fellow. Advisor: Aleksei Aksimentiev}
+\begin{itemize}
+\item {\normalfont Ran large molecular dynamics simulations using high performance computing resources to investigate stability of 3D nano-engineered DNA structures in various ionic solutions.}
+\end{itemize}
+\href{http://research.physics.berkeley.edu/haeffner/}{UC Berkeley Ion Trap Group (Advisor: Hartmut Haeffner)} \hfill Feb 2015 - May 2016\\
+\begin{itemize}
+\item Machined fixtures to house and align optical elements on an optical table. Designed and manufactured Helmholtz coils using electromagnetic simulation tools, computer aided design, and 3D printing. %TODO: rewrite to remove orphan line
+\end{itemize}
+\href{https://irene.lbl.gov/}{Project IRENE at Lawrence Berkeley National Laboratory (Advisor: Carl Haber)}  \hfill Jan - Oct 2014\\
+\begin{itemize}
+\item {\normalfont Implemented and benchmarked optical-flow-based algorithm to reconstruct audio signals from high resolution confocal microscope images of lacquer records.}
+\end{itemize}
+\section{INDUSTRY EXPERIENCE}
+\href{https://seyvu.ai/}{Data Scientist at Seyvu Inc.}  \hfill May 2018 (?) - Present \\ {\sl University of Illinois at Urbana-Champaign}\\
+\begin{itemize}
+\item TODO
+\end{itemize}
+\section{PUBLICATIONS}
+\begin{itemize}[leftmargin=0in,label={}]
+   % TODO: Include title and authors or In Preparation Papers
+\item TODO
+\item TODO
+\item Michael Gapinske\footnote{Equal Contribution}, \textbf{Alan Luu}\footnotemark[1], Jackson Winter, Wendy S. Woods, Kurt A. Kostan, Nikhil Shiva, Jun S. Song, Pablo Perez-Pinera, \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6092781/}{CRISPR-SKIP: programmable gene splicing with single base editors.
+}. \textit{Genome Biology}, August 2018.
+
+\end{itemize}
+\vspace{-10pt}
+
+\section{SKILLS}
+Machine Learning, Data Science, Statistical Analysis, Quantitative Biology and Genomics, Sequence Analysis, Text Analytics, Natural Language Processing, Image Processing %Mathematical Proofs
+\\ \textbf{Languages:} Python, Java, C, Matlab, Mathematica
+\\ \textbf{Framework:} TensorFlow, PyTorch, Jupyter, scikit-learn, pandas, Git, VMD, NAMD, Bowtie2, Tophat2
+\\ \textbf{Web Dev:} Flask, HTML, CSS, Javascript, Angular, MySQL, D3, Vega-Lite
+% {\normalfont Software: Matlab, Labview, Mathematica, , scikit-learn}
+% \item {\normalfont Sequence data analyis}
+% \item {\normalfont Basic machine shop and construction skills including drill press, lathe, and 3D printing}
+% \item {\normalfont Basic image processing including optical flow, edge detection, and filtering}
+
+\section{TEACHING}
+   \textbf{University of California at Berkeley}
+   \\Course Assistant: PHYS7B (Intro to Electromagnetism and Thermodynamics) \hfill June - Aug 2016
+   \\Grader: PHYS137B (Advanced Quantum Mechanics)\hfill Jan - Aug 2016
+   \\Grader: PHYS139 (General Relativity)\hfill Jan - Aug 2016
+   \\Course Lab Assistant: CS61A (Structure and Interpretation of Computer Programs)\hfill Aug - Dec 2013
+\section{AWARDS}
+   %TODO: Best Presenter Award CPLC Symposium
+   UIUC Center for the Physics of Living Cells Fellowship \hfill Aug 2016 - Aug 2018\\
+   UC Berkeley College of Letters and Science Dean's Honor List \hfill Aug. 2012 - May 2014\\
+   UC Berkeley Pomerantz Scholarship \hfill Aug 2014 - Aug 2015\\
+   \begin{itemize}
+   \item {\normalfont Awarded for high academic standing and progress in the physics major}
+   \end{itemize}
+
+   UC Berkeley Regents and Chancellor's Scholarship \hfill Aug 2012 - May 2016\\
+   \begin{itemize}
+   \item {\normalfont Awarded to top 1\% of applicants (top 5\% of admitted students)}
+   \end{itemize}
+\vspace{-10pt}
+\section{SERVICE}
+% TODO: add review paper information
+Paper Review: JOURNALNAME \rfill Oct 2018\\
+Lunch Coordinator and Volunteer for Society of Physics Students \rfill Aug 2013 - May 2016 \\
+Campaign Organizer for California Public Interest Research Group \rfill Aug 2012 - Dec 2012 \\
+\end{resume}
+\end{document}
