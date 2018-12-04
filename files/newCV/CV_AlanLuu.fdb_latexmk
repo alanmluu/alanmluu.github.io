@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1543468407 "CV_AlanLuu.tex" "CV_AlanLuu.pdf" "CV_AlanLuu" 1543468466
+["pdflatex"] 1543547587 "CV_AlanLuu.tex" "CV_AlanLuu.pdf" "CV_AlanLuu" 1543547588
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -50,8 +50,8 @@
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1463979169 3873397 413fbfbbedb8e719ddc392043a7add02 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
   "CV_AlanLuu.aux" 1542994902 8 a94a2480d3289e625eea47cd1b285758 ""
-  "CV_AlanLuu.tex" 1543468466 8306 bd86d29a091b346d72331cdb2c10cdf6 ""
+  "CV_AlanLuu.tex" 1543547587 8349 30feee0f4f9bfde9e38009480126067b ""
   "res.cls" 1542994380 414205 35a47a961c7ada4e1e2c83c5f547bbae ""
   (generated)
-  "CV_AlanLuu.pdf"
   "CV_AlanLuu.log"
+  "CV_AlanLuu.pdf"
